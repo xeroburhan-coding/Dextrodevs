@@ -1,3 +1,6 @@
+import logo from './assets/logo-full.png';
+
+<img src={logo} alt="Logo" />
 
 import { Code, Palette, Shield } from 'lucide-react';
 
@@ -13,7 +16,7 @@ function App() {
           {/* Logo Area */}
           <div className="mb-6 md:mb-8 inline-block p-3 md:p-4 ">
             {/* <Construction className="w-8 h-8 md:w-12 md:h-12 text-black" /> */}
-            <img src="/src/assets/logo full.png" alt="" />
+            <img src={logo} alt="" />
           </div>
           
           <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold mb-4 md:mb-6 text-white">
