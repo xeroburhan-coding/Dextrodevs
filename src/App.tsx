@@ -1,5 +1,5 @@
-import React from 'react';
-import { Construction, Code, Palette, Shield } from 'lucide-react';
+
+import { Code, Palette, Shield } from 'lucide-react';
 
 function App() {
   return (
