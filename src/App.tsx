@@ -11,11 +11,12 @@ function App() {
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
           {/* Logo Area */}
-          <div className="mb-6 md:mb-8 inline-block p-3 md:p-4 bg-gradient-to-r from-[#00FFB0] to-[#00C7F3] rounded-2xl">
-            <Construction className="w-8 h-8 md:w-12 md:h-12 text-black" />
+          <div className="mb-6 md:mb-8 inline-block p-3 md:p-4 ">
+            {/* <Construction className="w-8 h-8 md:w-12 md:h-12 text-black" /> */}
+            <img src="/src/assets/logo full.png" alt="" />
           </div>
           
-          <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold mb-4 md:mb-6 bg-gradient-to-r from-[#00FFB0] to-[#00C7F3] text-transparent bg-clip-text leading-tight">
+          <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold mb-4 md:mb-6 text-white">
             Coming Soon
           </h1>
           
